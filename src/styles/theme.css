@@ -1,0 +1,13 @@
+:root {
+  --color-bg: #000000;
+  --color-text: #ffffff;
+  --color-gray: #333333;
+  --color-gray-light: #666666;
+  --transition: all 0.3s ease;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: 'Inter', sans-serif;
+}
