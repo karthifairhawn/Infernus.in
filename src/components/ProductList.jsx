@@ -3,7 +3,7 @@ import ProductCard from './ProductCard';
 
 function ProductList({ products }) {
   return (
-    <div className="product-list d-flex">
+    <div className="product-list d-flex flex-wrap ">
       {products.map((product, index) => (
         <ProductCard
           key={index}

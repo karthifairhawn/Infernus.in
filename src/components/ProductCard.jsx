@@ -3,7 +3,7 @@ import '../styles/card.css';
 
 function ProductCard({ subdomain, description, url, image }) {
   return (
-    <div className="product-card">
+    <div className="product-card" style={{maxWidth: "350px"}}>
       <img src={image}  alt={subdomain} className="product-image"/>
       <div className="product-content">
         <h2>{subdomain}</h2>
